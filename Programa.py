@@ -12,7 +12,10 @@ def ejecutar_menu():
         opcion = input("Ingrese el número de la opción deseada: ")
 
         if opcion == '1':
-            a = 1
+            num1 = float(input("Ingrese el un número: "))
+            num2 = float(input("Ingrese el otro número: ")) 
+            resultado = num1 + num2
+            print(f"el resultado de la suma es:{resultado}")
         elif opcion == '2':
             a = 2
         elif opcion == '3':
