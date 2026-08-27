@@ -16,9 +16,13 @@ def ejecutar_menu():
         elif opcion == '2':
             a = 2
         elif opcion == '3':
-            a = 3
+            num1 = float(input("Ingrese el un número: "))
+            num2 = float(input("Ingrese el otro número: "))
+            resultado = num1 * num2
+            print(f"El resultado de la multiplicación es: {resultado}")
         elif opcion == '4':
-            a = 3
+            num1 = float(input("Ingrese el primer número: "))
+            num2 = float(input("Ingrese el segundo número: "))
         elif opcion == '5':
             print("Saliendo del programa...")
             break
