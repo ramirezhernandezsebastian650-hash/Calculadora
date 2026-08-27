@@ -6,6 +6,21 @@ def mostrar_menu():
     print("4. Dividir")
     print("5. Salir")
 
-def sumar(a, b):
-    return a + b 
-print("Suma:", sumar(5, 3))
+def ejecutar_menu():
+    while True:
+        mostrar_menu()
+        opcion = input("Ingrese el número de la opción deseada: ")
+
+        if opcion == '1':
+            a = 1
+        elif opcion == '2':
+            a = 2
+        elif opcion == '3':
+            a = 3
+        elif opcion == '4':
+            a = 3
+        elif opcion == '5':
+            print("Saliendo del programa...")
+            break
+        else:
+            print("Opción inválida. Por favor, intente nuevamente.")
