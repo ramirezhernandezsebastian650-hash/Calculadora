@@ -40,3 +40,4 @@ def ejecutar_menu():
             break
         else:
             print("Opción inválida. Por favor, intente nuevamente.")
+ejecutar_menu()
