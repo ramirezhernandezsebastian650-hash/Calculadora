@@ -30,6 +30,9 @@ def ejecutar_menu():
         elif opcion == '4':
             num1 = float(input("Ingrese el primer número: "))
             num2 = float(input("Ingrese el segundo número: "))
+            if num2 != 0:
+                resultado = num1 / num2
+                print(f"El resultado de la división es: {resultado}")
         elif opcion == '5':
             print("Saliendo del programa...")
             break
