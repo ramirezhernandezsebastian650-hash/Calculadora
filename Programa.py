@@ -33,6 +33,8 @@ def ejecutar_menu():
             if num2 != 0:
                 resultado = num1 / num2
                 print(f"El resultado de la división es: {resultado}")
+            else:
+                print("Error: no se puede dividir entre 0")
         elif opcion == '5':
             print("Saliendo del programa...")
             break
